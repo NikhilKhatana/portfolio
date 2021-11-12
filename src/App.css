@@ -6,20 +6,20 @@
 }
 
 .light {
-  --clr-bg: #fcfcfc;
+  --clr-bg: #f5f6f7;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-fg-alt: #222;
+  --clr-primary: #306cc4;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  --clr-bg: #030217;
+  --clr-bg-alt: rgb(22 28 41 / 33%);
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-primary: #807ae8;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -38,6 +38,14 @@ main {
   text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
+}
+
+.section__title::after {
+  border-bottom: 0.2em solid var(--clr-primary);
+  content: '';
+  display: block;
+  margin: 0.3em auto 0;
+  width: 1.5em;
 }
 
 .center {

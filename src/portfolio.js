@@ -8,12 +8,12 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Nikhil Khantana',
   role: 'Full Stack Software Developer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  description: `I’m looking for new challenges and a change in my career direction. Hopefully I will get the chance to put all my knowledge in the right place
+    and become part of a great team. I strive to add a great value to the company and to guarantee happy customers.`,
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/nikhil-k-6b8623133/',
+    github: 'https://github.com/nikhilkhatana',
   },
 }
 
@@ -21,20 +21,22 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'React Chatbot',
+    image:
+      'https://github.com/NikhilKhatana/react-chatbot/raw/master/public/images/ChatBot.gif?raw=true',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Built a chat bot using simple-react-chatbot. Used create-react-app and React Boostrap.',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/NikhilKhatana/react-chatbot',
+    livePreview: 'https://react-chatbot.vercel.app/',
   },
   {
     name: 'Project 2',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Developed with ReactJs, React Context Hook, Typescript and Sass',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/NikhilKhatana/pomodoro-timer',
+    livePreview: 'https://pomodoro-timer-amber.vercel.app/',
   },
   {
     name: 'Project 3',
@@ -65,7 +67,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'nkhatanaa@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
