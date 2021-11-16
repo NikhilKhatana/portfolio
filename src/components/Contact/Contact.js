@@ -9,7 +9,7 @@ const Contact = () => {
       <h2 className='section__title'>Get In Touch</h2>
       <ul>
         <li>
-          <a href='mailto:rjshekhar.official@gmail.com'>
+          <a href='mailto:nkhatanaa@gmail.com'>
             <span className='btn'>
               <i aria-hidden='true' className='fas icon fa-envelope' />
               Email
