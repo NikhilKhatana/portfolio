@@ -23,30 +23,6 @@ const About = () => {
             </span>
           </a>
         )}
-
-        {social && (
-          <>
-            {social.github && (
-              <a
-                href={social.github}
-                aria-label='github'
-                className='link link--icon'
-              >
-                <i className='fab fa-github' />
-              </a>
-            )}
-
-            {social.linkedin && (
-              <a
-                href={social.linkedin}
-                aria-label='linkedin'
-                className='link link--icon'
-              >
-                <i className='fab fa-linkedin' />
-              </a>
-            )}
-          </>
-        )}
       </div>
     </div>
   )

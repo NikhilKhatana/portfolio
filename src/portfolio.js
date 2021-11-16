@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://nikhilkhatana.github.io',
+  homepage: 'https://nikhilkhatana.github.io/portfolio/',
   title: 'NK.',
 }
 
@@ -10,11 +10,8 @@ const about = {
   role: 'Full Stack Software Developer',
   description: `I’m looking for new challenges and a change in my career direction. Hopefully I will get the chance to put all my knowledge in the right place
     and become part of a great team. I strive to add a great value to the company and to guarantee happy customers.`,
-  resume: 'https://example.com',
-  social: {
-    linkedin: 'https://www.linkedin.com/in/nikhil-k-6b8623133/',
-    github: 'https://github.com/nikhilkhatana',
-  },
+  resume:
+    'https://drive.google.com/file/d/1KbUGJTXLswWwif183LbFLHuLRLgt8WFC/view?usp=sharing',
 }
 
 const projects = [
