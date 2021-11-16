@@ -11,17 +11,21 @@
   --clr-fg: #555;
   --clr-fg-alt: #222;
   --clr-primary: #306cc4;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-primary-alt: #185dc7;
+  --clr-primary-light: rgba(44, 93, 206, 0.1);
+  --shadow: 0 2px 4px rgb(0 0 0 / 10%);
 }
 
 .dark {
   --clr-bg: #030217;
-  --clr-bg-alt: rgb(22 28 41 / 33%);
+  --clr-bg-alt: rgb(22 28 41/33%);
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #807ae8;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-primary-alt: #706aec;
+  --clr-primary-light: rgb(18 17 49 / 44%);
+  --shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 main {
@@ -90,6 +94,26 @@ main {
 }
 
 .btn {
+  display: inline-block;
+  border-radius: 5em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out;
+  padding: 1em 1.6em;
+  background-color: var(--clr-primary);
+  color: var(--clr-bg);
+}
+
+.btn:hover {
+  background-color: var(--clr-primary-alt);
+}
+
+.btn:active {
+  transform: translateY(-0.4em);
+}
+/* 
+
+.btn {
   display: block;
   cursor: pointer;
   padding: 0.8em 1.4em;
@@ -151,10 +175,53 @@ main {
 
 .btn--icon:active {
   transform: translateY(-5px);
-}
+} */
 
 @media (max-width: 600px) {
   .section {
     margin-top: 4em;
   }
+}
+
+.icon-border {
+  border: 0.15em solid var(--clr-primary);
+  color: var(--clr-primary);
+  height: 2.2em;
+  width: 2.2em;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  margin: 0.2em;
+  position: relative;
+  z-index: 1;
+}
+
+.icon-border:hover {
+  color: var(--clr-bg);
+}
+
+.fa-code:before {
+  content: '\f121';
+}
+
+.icon-border:hover:after,
+.icon-normal:hover:after {
+  border: 0.2em solid var(--clr-primary);
+  height: 100%;
+  width: 100%;
+}
+
+.icon-border:after,
+.icon-normal:after {
+  background-color: var(--clr-primary);
+  border-radius: 50%;
+  content: '';
+  height: 0%;
+  position: absolute;
+  transition: all 0.25s ease-in-out;
+  width: 0;
+  z-index: -1;
 }

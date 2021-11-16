@@ -1,6 +1,7 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  text-align: center;
 }
 
 .about__name {
@@ -18,11 +19,13 @@
 
 .about__desc,
 .about__contact {
+  margin: 0 auto;
   margin-top: 2.4em;
 }
 
 .about .link--icon {
   margin-right: 0.8em;
+  font-size: 24px;
 }
 
 .about .btn--outline {

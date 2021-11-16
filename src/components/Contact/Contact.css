@@ -1,3 +1,20 @@
 .contact {
   flex-direction: column;
+  padding-bottom: 5em;
+}
+
+.contact ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact .btn {
+  margin-right: 0.5em;
+  margin-top: 0.3em;
+}
+
+.contact .icon,
+.hero .icon {
+  margin-right: 0.2em;
 }

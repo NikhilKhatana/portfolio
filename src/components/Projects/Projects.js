@@ -7,14 +7,12 @@ const Projects = () => {
   if (!projects.length) return null
 
   return (
-    <section id='projects' className='section projects'>
+    <section id='project' className='section project'>
       <h2 className='section__title'>Projects</h2>
 
-      <div className='projects__grid'>
-        {projects.map((project) => (
-          <ProjectContainer key={uniqid()} project={project} />
-        ))}
-      </div>
+      {projects.map((project) => (
+        <ProjectContainer key={uniqid()} project={project} />
+      ))}
     </section>
   )
 }

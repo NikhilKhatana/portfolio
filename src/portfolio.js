@@ -6,7 +6,7 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Nikhil Khantana',
+  name: 'Nikhil Khatana',
   role: 'Full Stack Software Developer',
   description: `I’m looking for new challenges and a change in my career direction. Hopefully I will get the chance to put all my knowledge in the right place
     and become part of a great team. I strive to add a great value to the company and to guarantee happy customers.`,
@@ -26,25 +26,18 @@ const projects = [
       'https://github.com/NikhilKhatana/react-chatbot/raw/master/public/images/ChatBot.gif?raw=true',
     description:
       'Built a chat bot using simple-react-chatbot. Used create-react-app and React Boostrap.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['React'],
     sourceCode: 'https://github.com/NikhilKhatana/react-chatbot',
     livePreview: 'https://react-chatbot.vercel.app/',
   },
   {
-    name: 'Project 2',
+    name: 'Pomotroid Timer',
+    image: 'https://s1.gifyu.com/images/pomotroid.gif',
     description:
       'Developed with ReactJs, React Context Hook, Typescript and Sass',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['React', 'TypeScript', 'SASS'],
     sourceCode: 'https://github.com/NikhilKhatana/pomodoro-timer',
     livePreview: 'https://pomodoro-timer-amber.vercel.app/',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
   },
 ]
 
