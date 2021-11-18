@@ -36,6 +36,14 @@ const projects = [
     sourceCode: 'https://github.com/NikhilKhatana/pomodoro-timer',
     livePreview: 'https://pomodoro-timer-amber.vercel.app/',
   },
+  {
+    name: 'Checkout Form',
+    image: 'https://s10.gifyu.com/images/vue-checkout.gif',
+    description: 'Tailwind checkout form built with vue.js',
+    stack: ['Javscript', 'Vue', 'SASS', 'Tailwind'],
+    sourceCode: 'https://github.com/NikhilKhatana/vue-checkout-form',
+    livePreview: 'https://vue-checkout-form.vercel.app/',
+  },
 ]
 
 const skills = [
